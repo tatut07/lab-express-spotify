@@ -1,0 +1,7 @@
+<h1>Track Page</h1>
+<% listOfTracks.forEach(tracks=> { %>
+    <h3>
+        <%= tracks.name %>
+    </h3>
+    <audio src="<%= tracks.preview_url %>" controls></audio>
+    <% }) %>

@@ -1,0 +1,10 @@
+<h1>Album Page</h1>
+<% listOfAlbums.forEach(album=> { %>
+    <% if (album.images.length) { %>
+        <img src="<%= album.images[0].url %>" alt="album-image" />
+        <% } %>
+            <h1>
+                <%= album.name %>
+            </h1>
+            <a href="/tracks/<%= album.id %>">View Tracks</a>
+            <% }) %>

@@ -1,5 +1,104 @@
-body {
-  background-image: url("../images/spotify-background.jpeg");
+/* //Homepage */
+
+.homePage {
+  background-image: url("/images/spotify-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.searchArea {
+  background-color: rgba(255, 255, 255, 0.4);
+  background-size: 60px 150px;
+  padding: 50px 50px 70px 50px;
+  margin: 200px auto;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+.searchButton {
+  background-color: #fa6863;
+  border-color: transparent;
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+  margin: 20px 150px auto 170px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.searchForm {
+  width: 300px;
+  margin: 0 120px auto 120px;
+}
+
+/* Search Results */
+
+body {
+  margin: 40px;
+}
+
+.allArtists {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.eachArtist {
+  height: 300px;
+  margin-bottom: 30px;
+  width: 200px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.artistImage {
+  width: 200px;
+  margin: 0 50px;
+}
+
+.artistName {
+  font-family: Bebas Neue;
+  font-size: 50px;
+  text-align: center;
+}
+
+.viewAlbums {
+  background-color: #fa6863;
+  border-color: transparent;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+/* a:hover{
+    background-color: #e0e0e0;
+} */
+
+/* .artistInfo {
+  width: 200px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.allArtists {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+} */
