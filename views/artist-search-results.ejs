@@ -2,14 +2,14 @@
 <% artistArray.forEach(artist=> { %>
     <% if (artist.images.length) { %>
         <div class="eachArtist">
-            <img class="artistImage" src="<%= artist.images[1].url %>" alt="artist-image" />
-            <% } %>
-                <!-- <div class="artistInfo"> -->
-                <h4 class="artistName">
-                    <%= artist.name %>
-                </h4>
-                <a class="viewAlbums" href="<%= `/albums/${artist.id}` %>">View Albums</a>
-                <% }) %>
-                    <!-- </div> -->
+            <div class="artistImg">
+                <img class="artistImage" src="<%= artist.images[1].url %>" alt="artist-image" />
+                <% } %>
+            </div>
+            <h4 class="artistName">
+                <%= artist.name %>
+            </h4>
+            <a class="viewAlbums" href="<%= `/albums/${artist.id}` %>">View Albums</a>
+            <% }) %>
         </div>
         </div>

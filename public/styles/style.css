@@ -44,61 +44,62 @@ body {
 }
 
 .allArtists {
-  width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .eachArtist {
-  height: 300px;
-  margin-bottom: 30px;
-  width: 200px;
-  background-color: rgb(70, 70, 70);
-  color: white;
-  margin-bottom: 10px;
-  text-align: center;
+  width: 20vw;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4d4d4d;
+  justify-content: end;
+}
+
+.artistImg {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .artistImage {
-  width: 200px;
-  margin: 0 50px;
+  width: 100%;
+  height: 20vw;
+  background-color: #4d4d4d;
 }
 
-.artistName {
-  font-family: Bebas Neue;
-  font-size: 50px;
+.artist a {
+  width: 30%;
+  margin: 5px 10px 10px 10px;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: #ef6866;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-size: 10px;
   text-align: center;
 }
 
-.viewAlbums {
-  background-color: #fa6863;
-  border-color: transparent;
-  border-radius: 7px;
+.artist h4 {
   color: white;
-  font-size: 15px;
-  padding: 10px;
+  margin: 1px;
   text-align: center;
-  width: 200px;
 }
-
-/* a:hover{
-    background-color: #e0e0e0;
-} */
 
 /* .artistInfo {
-  width: 200px;
-  background-color: rgb(70, 70, 70);
-  color: white;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.allArtists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-around;
+  width: 100%;
+  background-color: rgb(70, 70, 70);
 } */
